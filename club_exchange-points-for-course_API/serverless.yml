@@ -1,0 +1,24 @@
+service: course-order
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-jetpack
+
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+# overwrite defaults here
+  stage: prod
+  region: sa-east-1
+  environment:
+    PORT: ${env:PORT}
+    MONGODB_URI: ${env:MONGODB_URI}
+    S3_COURSE_RECEIPT_BUCKET: ${env:S3_COURSE_RECEIPT_BUCKET}
+
+functions:
+  github-actions:
+    handler: dist/serverless.handler
+    events:
+      - httpApi: '*'

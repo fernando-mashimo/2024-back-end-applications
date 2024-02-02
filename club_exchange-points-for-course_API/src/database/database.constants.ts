@@ -1,0 +1,3 @@
+export const DATABASE_CONNECTION = 'DATABASE_CONNECTION';
+export const COURSE_ORDERS_MODEL = 'COURSE_ORDERS_MODEL';
+export const COURSE_ORDERS_SCHEMA = 'course_orders';

@@ -1,0 +1,309 @@
+swagger: '2.0'
+info:
+  title: Your API Title
+  version: 1.0.0
+basePath: /api # Update this base path as per your API configuration
+schemes:
+  - https # Update this scheme if you're using HTTP
+paths:
+  /video:
+    get:
+      summary: Get Video List
+      description: Retrieve a list of videos
+      parameters:
+        - name: Authorization
+          in: header
+          description: Bearer Token
+          type: string
+          required: true
+      responses:
+        200:
+          description: Successful response
+          # Define the response schema here
+
+  /video/{videoId}:
+    get:
+      summary: Get Video by ID
+      description: Retrieve a video by ID
+      parameters:
+        - name: videoId
+          in: path
+          description: ID of the video to retrieve
+          type: string
+          required: true
+        - name: macaddress
+          in: header
+          description: MAC Address
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          description: Bearer Token
+          type: string
+          required: true
+      responses:
+        200:
+          description: Successful response
+          # Define the response schema here
+
+    delete:
+      summary: Delete Video by ID
+      description: Delete a video by ID
+      parameters:
+        - name: videoId
+          in: path
+          description: ID of the video to delete
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          description: Bearer Token
+          type: string
+          required: true
+      responses:
+        204:
+          description: Video deleted successfully
+
+  /playlist:
+    get:
+      summary: Get Playlist List
+      description: Retrieve a list of playlists
+      parameters:
+        - name: macaddress
+          in: header
+          description: MAC Address
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          description: Bearer Token
+          type: string
+          required: true
+      responses:
+        200:
+          description: Successful response
+          # Define the response schema here
+
+    post:
+      summary: Create Playlist
+      description: Create a new playlist
+      parameters:
+        - name: macaddress
+          in: header
+          description: MAC Address
+          type: string
+          required: true
+        - name: Content-Type
+          in: header
+          description: Content Type
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          description: Bearer Token
+          type: string
+          required: true
+      responses:
+        201:
+          description: Playlist created successfully
+          # Define the response schema here
+
+  /video-subgroup:
+    post:
+      summary: Cria um novo vídeo no subgrupo
+      parameters:
+        - name: macAddress
+          in: header
+          type: string
+          required: true
+        - name: Content-Type
+          in: header
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          type: string
+          required: true
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      responses:
+        201:
+          description: Vídeo no subgrupo criado com sucesso
+        # Outras respostas possíveis
+
+    patch:
+      summary: Atualiza um subgrupo de vídeo existente
+      parameters:
+        - name: macAddress
+          in: header
+          type: string
+          required: true
+        - name: Content-Type
+          in: header
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          type: string
+          required: true
+        - name: videoGroupId
+          in: path
+          type: string
+          required: true
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Subgrupo de vídeo atualizado com sucesso
+        # Outras respostas possíveis
+
+    get:
+      summary: Lista todos os subgrupos de vídeo
+      parameters:
+        - name: macAddress
+          in: header
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          type: string
+          required: true
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Lista de subgrupos de vídeo recuperada com sucesso
+        # Outras respostas possíveis
+
+  /video-subgroup/{videoGroupId}:
+    get:
+      summary: Obtém informações sobre um subgrupo de vídeo específico
+      parameters:
+        - name: macAddress
+          in: header
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          type: string
+          required: true
+        - name: videoGroupId
+          in: path
+          type: string
+          required: true
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Informações do subgrupo de vídeo recuperadas com sucesso
+        # Outras respostas possíveis
+
+    delete:
+      summary: Exclui um subgrupo de vídeo
+      parameters:
+        - name: macAddress
+          in: header
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          type: string
+          required: true
+        - name: videoGroupId
+          in: path
+          type: string
+          required: true
+      responses:
+        204:
+          description: Subgrupo de vídeo excluído com sucesso
+        # Outras respostas possíveis
+
+  /video-group:
+    get:
+      summary: Lista todos os grupos de vídeo
+      parameters:
+        - name: macAddress
+          in: header
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          type: string
+          required: true
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Lista de grupos de vídeo recuperada com sucesso
+        # Outras respostas possíveis
+
+    post:
+      summary: Cria um novo grupo de vídeo
+      parameters:
+        - name: macAddress
+          in: header
+          type: string
+          required: true
+        - name: Content-Type
+          in: header
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          type: string
+          required: true
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      responses:
+        201:
+          description: Grupo de vídeo criado com sucesso
+        # Outras respostas possíveis
+
+  /video-group/{videoGroupId}:
+    get:
+      summary: Obtém informações sobre um grupo de vídeo específico
+      parameters:
+        - name: macAddress
+          in: header
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          type: string
+          required: true
+        - name: videoGroupId
+          in: path
+          type: string
+          required: true
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Informações do grupo de vídeo recuperadas com sucesso
+        # Outras respostas possíveis
+
+    delete:
+      summary: Exclui um grupo de vídeo
+      parameters:
+        - name: macAddress
+          in: header
+          type: string
+          required: true
+        - name: Authorization
+          in: header
+          type: string
+          required: true
+        - name: videoGroupId
+          in: path
+          type: string
+          required: true
+      responses:
+        204:
+          description: Grupo de vídeo excluído com sucesso
+        # Outras respostas possíveis

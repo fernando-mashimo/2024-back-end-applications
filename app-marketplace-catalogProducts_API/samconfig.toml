@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "product-function"
+resolve_s3 = true
+s3_prefix = "product-function"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["ProductFunction=105662420702.dkr.ecr.us-east-2.amazonaws.com/productfunction3e37fcee/productfunctionef096cecrepo"]

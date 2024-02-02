@@ -1,0 +1,67 @@
+name: Deploy Lambda Function
+on:
+  push:
+    branches:
+      - development
+env:
+  AWS_REGION: 'us-east-2'
+  ECR_REPOSITORY: 'catalogproductdevelopmentfc476a48/productfunctionef096cecrepo'
+  FUNCTION_NAME: 'catalog-product-development-ProductFunction-WFmCopSZnwrQ'
+  AWS_ACCESS_KEY_ID: 
+  AWS_SECRET_ACCESS_KEY: 
+
+permissions:
+  contents: read
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependences
+        run: npm install
+
+      - name: Buil application
+        run: npm run build
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ env.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+      - name: Build, tag, and push image to Amazon ECR
+        id: build-image
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          # Build a docker container and
+          # push it to ECR so that it can
+          # be deployed to ECS.
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+      - name: Deploy to AWS Lambda
+        run: |
+          aws lambda update-function-code \
+            --function-name $FUNCTION_NAME \
+            --image-uri ${{ steps.build-image.outputs.image }} \
+            --publish
+      # Additional step for deploying with CloudFormation if needed
+      # - name: Deploy stack with CloudFormation
+      #   run: |
+      #     aws cloudformation deploy \
+      #       --template-file template.yaml \
+      #       --stack-name ${{ env.FUNCTION_NAME }} \
+      #       --parameter-overrides FunctionImageUri=${{ steps.build-image.outputs.image }} \
+      #       --capabilities CAPABILITY_IAM \
+      #       --region ${{ env.AWS_REGION }} \
+      #       --no-fail-on-empty-changeset \
+      #       --s3-prefix ${{ env.FUNCTION_NAME }}
+ 

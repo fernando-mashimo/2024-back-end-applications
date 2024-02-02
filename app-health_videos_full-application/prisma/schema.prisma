@@ -1,0 +1,246 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-1.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Account {
+  id                       String                     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email                    String?                    @unique
+  name                     String?
+  surname                  String?
+  photo                    String?
+  password                 String?
+  cpf                      String?                    @unique
+  accountType              String                     @db.VarChar
+  birthday                 DateTime?
+  height                   Int?
+  weight                   Int?
+  accountDetails           AccountDetails?
+  professional             Professional?
+  RefreshToken             RefreshToken?
+  ResponsibilityTerm       ResponsibilityTerm?
+  subscription             Subscription[]
+  Video                    Video[]
+  WatchedVideo             WatchedVideo[]
+  PasswordResetTokens      PasswordResetTokens[]
+}
+
+model Professional {
+  id        String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  cref      String? @unique @db.VarChar
+  social    String? @db.VarChar
+  bio       String?
+  accountId String  @unique @db.Uuid
+  account   Account @relation(fields: [accountId], references: [id])
+  Video     Video[]
+}
+
+model ResponsibilityTerm {
+  id           String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accepted     Boolean
+  accountId    String   @unique @db.Uuid
+  responseDate DateTime @default(now())
+  Account      Account  @relation(fields: [accountId], references: [id])
+}
+
+model AccountCategoryInterests {
+  categoryId       String          @db.Uuid
+  accountDetailsId String         @db.Uuid
+  AccountDetails   AccountDetails @relation(fields: [accountDetailsId], references: [id])
+  Category         Category        @relation(fields: [categoryId], references: [id])
+
+  @@id([accountDetailsId, categoryId])
+}
+
+model AccountDetails {
+  id                  String                     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId           String                     @unique @db.Uuid
+  medicalRestrictions String[]
+  objectives          String[]
+  interests           AccountCategoryInterests[]
+  account             Account                    @relation(fields: [accountId], references: [id])
+}
+
+model PasswordResetTokens {
+  id                  String                     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  token               Int
+  createdAt           DateTime                   @default(now())
+  expiresAt           DateTime
+  isUsed              Boolean
+  accountId           String                     @db.Uuid
+  account             Account                    @relation(fields: [accountId], references: [id])
+}
+
+model Subscription {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  startAt   DateTime
+  expDate   DateTime
+  endDate   DateTime?
+  status    String
+  accountId String   @unique @db.Uuid
+  billingFrequency  String
+  updatedBy String?
+  account   Account  @relation(fields: [accountId], references: [id])
+  // planId    String   @db.Uuid
+  // plan      Plan     @relation(fields: [planId], references: [id])
+}
+
+model Plan {
+  id           String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name         String
+  priceInCents Int
+  type         PlansType
+  // Subscription Subscription[]
+}
+
+model Category {
+  id                       String                     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  title                    String
+  description              String
+  icon                     String?
+  thumbPortrait            String
+  thumbLandscape           String?
+  public                   Boolean
+  AccountCategoryInterests AccountCategoryInterests[]
+  Playlist                 Playlist[]
+  Video                    Video[]
+
+  @@index([public])
+}
+
+model Video {
+  id                 String               @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name               String
+  link               String
+  thumb              String?
+  categoryId         String               @db.Uuid
+  videoType          String
+  professionalId     String               @db.Uuid
+  accountId          String?              @db.Uuid
+  playlist           Playlist[]
+  account            Account?             @relation(fields: [accountId], references: [id])
+  category           Category             @relation(fields: [categoryId], references: [id])
+  Professional       Professional         @relation(fields: [professionalId], references: [id])
+  VideoSubgroupVideo VideoSubgroupVideo[]
+  watchedVideo       WatchedVideo[]
+
+  @@index([videoType])
+}
+
+model WatchedVideo {
+  id                  String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  watchedAt           DateTime @default(now())
+  watchedTimeInSecond Int
+  accountId           String   @db.Uuid
+  videoId             String   @db.Uuid
+  account             Account  @relation(fields: [accountId], references: [id])
+  video               Video    @relation(fields: [videoId], references: [id])
+}
+
+model Playlist {
+  id          String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name        String
+  description String
+  categoryId  String?           @db.Uuid
+  thumb       String
+  public      Boolean
+  videoId     String            @db.Uuid
+  category    Category?         @relation(fields: [categoryId], references: [id])
+  video       Video             @relation(fields: [videoId], references: [id])
+  news        PlaylistsOnNews[]
+  videoGroup  VideoGroup[]
+
+  @@index([public])
+}
+
+model VideoGroup {
+  id             String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name           String          @default("")
+  order          Int
+  classFrequency ClassFrequency
+  playlistId     String          @db.Uuid
+  playlist       Playlist        @relation(fields: [playlistId], references: [id])
+  videoSubgroups VideoSubgroup[]
+}
+
+model VideoSubgroup {
+  id           String               @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name         String
+  order        Int
+  videoGroupId String?              @db.Uuid
+  VideoGroup   VideoGroup?          @relation(fields: [videoGroupId], references: [id])
+  videos       VideoSubgroupVideo[]
+}
+
+model VideoSubgroupVideo {
+  id              String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  order           Int
+  videoId         String         @db.Uuid
+  videoSubgroupId String?        @db.Uuid
+  video           Video          @relation(fields: [videoId], references: [id])
+  videoSubgroup   VideoSubgroup? @relation(fields: [videoSubgroupId], references: [id])
+}
+
+model News {
+  id        String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name      String?           @db.VarChar
+  release   DateTime          @db.Timestamp(6)
+  createdAt DateTime          @db.Timestamp(6)
+  public    Boolean           @db.Boolean()
+  news      PlaylistsOnNews[]
+
+  @@index([public])
+}
+
+model PlaylistsOnNews {
+  thumb      String   @db.VarChar
+  status     String   @db.VarChar
+  release    DateTime @db.Timestamp(6)
+  public     Boolean  @db.Boolean()
+  playlistId String   @db.Uuid
+  newsId     String   @db.Uuid
+  news       News     @relation(fields: [newsId], references: [id])
+  playlist   Playlist @relation(fields: [playlistId], references: [id])
+
+  @@id([playlistId, newsId], name: "playlistsOnNewsId")
+  @@index([public])
+}
+
+model RefreshToken {
+  id             String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId      String   @unique @db.Uuid
+  refreshToken   String
+  expirationDate DateTime
+  iat            DateTime
+  Account        Account  @relation(fields: [accountId], references: [id])
+
+  @@index([refreshToken])
+}
+
+model ApiKeys {
+  id            String    @id @db.Uuid() @default(dbgenerated("gen_random_uuid()"))
+  key           String    @db.Uuid() @unique
+  holder        String    @db.VarChar(100)
+  status        String    @db.VarChar(100)
+  createdAt     DateTime  @default(now())
+}
+
+enum PlansType {
+  MONTHLY
+  YEARLY
+}
+
+enum AccountType {
+  PROFESSIONAL
+  CUSTOMER
+}
+
+enum ClassFrequency {
+  DAILY
+  WEEKLY
+}

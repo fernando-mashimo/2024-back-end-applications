@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "move-health-api"
+resolve_s3 = true
+s3_prefix = "move-health-api"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["MoveApiFunction=105662420702.dkr.ecr.us-east-2.amazonaws.com/movehealthapi8a5e867c/moveapifunctiond3d2cd3erepo"]

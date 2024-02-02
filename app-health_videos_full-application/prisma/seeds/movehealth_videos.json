@@ -1,0 +1,856 @@
+[
+  {
+    "CATEGORIA": "MULHER",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/mulher.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/mulher.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/mullher.png",
+    "PLAYLIST": "COMECE A TREINAR|https://videos-move.s3.amazonaws.com/video_chamada_playlist/MULHER_ComeceATreinar.mp4",
+    "THUMBS PLAYLIST": "capa comece a treinar|https://videos-move.s3.amazonaws.com/thumb_playlist/comece_a_treinar_mulher.png",
+    "RESUMO DA PLAYLIST": "Experimente este programa de 7 dias para escolher suas aulas preferidas. Treinamento destinado para as especificidades da mulher com foco em emagrecimento e ganho de massa muscular.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Treinamento de alta intensidade com Miranda|https://videos-move.s3.amazonaws.com/Aula+1+-+Rafael+Ferraz.+-+Polichinelo.mp4"
+      ],
+      [
+        "Polichinelo com Rafael|https://videos-move.s3.amazonaws.com/Aula+1+-+Rafael+Ferraz.+-+Polichinelo.mp4"
+      ],
+      [
+        "Aula de Dance Up|https://movehealth.app/aulas/639243193.mp4"
+      ],
+      [
+        "Treinamento de Core|https://movehealth.app/aulas/675009066.mp4"
+      ],
+      [
+        "Treinamento de Força|https://movehealth.app/aulas/581188895.mp4"
+      ],
+      [
+        "Circuito para Glúteos|https://movehealth.app/aulas/717918894.mp4",
+        "Aula de Yoga|https://movehealth.app/aulas/578057085.mp4"
+      ],
+      [
+        "Dia da Recuperação: Meditação|https://movehealth.app/aulas/580042194.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "MULHER",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/mulher.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/mulher.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/mullher.png",
+    "PLAYLIST": "YOGA EM 10 MINUTOS|https://videos-move.s3.amazonaws.com/video_chamada_playlist/MULHER_Yoga10Min.mp4",
+    "THUMBS PLAYLIST": "capa yoga|https://videos-move.s3.amazonaws.com/thumb_playlist/yoga_10_munitos.png",
+    "RESUMO DA PLAYLIST": "Esta série traz práticas de yoga com 10 minutos de duração, perfeita para você encaixar em sua rotina!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Yoga 1|https://movehealth.app/aulas/578057085.mp4"
+      ],
+      [
+        "Yoga 2|https://movehealth.app/aulas/647483366.mp4"
+      ],
+      [
+        "Yoga 3|https://movehealth.app/aulas/578081011.mp4"
+      ],
+      [
+        "Yoga 4|https://movehealth.app/aulas/647771096.mp4"
+      ],
+      [
+        "Yoga 5|https://movehealth.app/aulas/578137149.mp4"
+      ],
+      [
+        "Yoga 6|https://movehealth.app/aulas/647849605.mp4"
+      ],
+      [
+        "Yoga 7|https://movehealth.app/aulas/658567916.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "MULHER",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/mulher.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/mulher.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/mullher.png",
+    "PLAYLIST": "MEDITAÇÃO EM 10 MINUTOS|https://videos-move.s3.amazonaws.com/video_chamada_playlist/MULHER_Meditacao10Min.mp4",
+    "THUMBS PLAYLIST": "capa meditação|https://videos-move.s3.amazonaws.com/thumb_playlist/meditacao_10_minutos.png",
+    "RESUMO DA PLAYLIST": "Quando falamos em treinamento, temos que contar também com a recuperação. Nesta série, a recuperação é física e mental, e se encaixa perfeitamente no final de um intenso dia de trabalho.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Meditação 1|https://movehealth.app/aulas/580042194.mp4"
+      ],
+      [
+        "Meditação 2|https://movehealth.app/aulas/580404893.mp4"
+      ],
+      [
+        "Meditação 3|https://movehealth.app/aulas/580407288.mp4"
+      ],
+      [
+        "Meditação 4|https://movehealth.app/aulas/580907031.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "MULHER",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/mulher.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/mulher.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/mullher.png",
+    "PLAYLIST": "SEMANA DO FORTALECIMENTO|https://videos-move.s3.amazonaws.com/video_chamada_playlist/MULHER_SemanaDoFortalecimento.mp4",
+    "THUMBS PLAYLIST": "semana do fortalecimento|https://videos-move.s3.amazonaws.com/thumb_playlist/meditacao_10_minutos.png",
+    "RESUMO DA PLAYLIST": "Cinco dias de treinamento em circuito pra fortalecer todo o seu corpo, sem repetir os exercícios, aproveite!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Fortalecimento 1|https://movehealth.media-storage.us-west.qencode.com/717941171/video.m3u8"
+      ],
+      [
+        "Fortalecimento 2|https://movehealth.media-storage.us-west.qencode.com/717945099/video.m3u8"
+      ],
+      [
+        "Fortalecimento 3|https://movehealth.media-storage.us-west.qencode.com/718317999/video.m3u8"
+      ],
+      [
+        "Fortalecimento 4|https://movehealth.media-storage.us-west.qencode.com/718357997/video.m3u8"
+      ],
+      [
+        "Fortalecimento 5|https://movehealth.media-storage.us-west.qencode.com/718321782/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "MULHER",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/mulher.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/mulher.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/mullher.png",
+    "PLAYLIST": "HIIT SECA BARRIGA|https://videos-move.s3.amazonaws.com/video_chamada_playlist/MULHER_HitSecaBarriga.mp4",
+    "THUMBS PLAYLIST": "capa hit seca barriga|https://videos-move.s3.amazonaws.com/thumb_playlist/hiit_seca_barriga.png",
+    "RESUMO DA PLAYLIST": "Aquela sequência de treinamentos que vai te fazer perder gordura. Concilie com um bom plano alimentar específico para emagrecimento e alcance resultados incríveis!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Hiit 1|https://movehealth.media-storage.us-west.qencode.com/577604192/video.m3u8"
+      ],
+      [
+        "Hiit 2|https://movehealth.media-storage.us-west.qencode.com/577619135/video.m3u8"
+      ],
+      [
+        "Hiit 3|https://movehealth.media-storage.us-west.qencode.com/578038438/video.m3u8"
+      ],
+      [
+        "Hiit 4|https://movehealth.media-storage.us-west.qencode.com/591715707/video.m3u8"
+      ],
+      [
+        "Hiit 5|https://movehealth.media-storage.us-west.qencode.com/647753713/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "PARA TODOS",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/para-todos.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/paratodos.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/paratodos.png",
+    "PLAYLIST": "COMECE A TREINAR|https://videos-move.s3.amazonaws.com/video_chamada_playlist/PARATODOS_ComeceATreinar.mp4",
+    "THUMBS PLAYLIST": "capa comece a treinar|https://videos-move.s3.amazonaws.com/thumb_playlist/comece_a_treinar_para_todos.png",
+    "RESUMO DA PLAYLIST": "Experimente este programa de 7 dias para escolher suas aulas preferidas. Programa criado para movimentar pessoas de qualquer idade e nível de condicionamento.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Vamos começar: Alongamento|https://movehealth.app/aulas/591715596.mp4"
+      ],
+      [
+        "Aprendendo Pagodão Baiano com André|https://videos-move.s3.amazonaws.com/Aula+1+-+Andre%CC%81+Oliveira+Pagode+Baiano.mp4",
+        "Treinamento de Musculação|https://movehealth.app/aulas/717902728.mp4"
+      ],
+      [
+        "Core para Iniciantes|https://movehealth.app/aulas/641230005.mp4"
+      ],
+      [
+        "Treinamento funcional|https://movehealth.app/aulas/675642760.mp4"
+      ],
+      [
+        "Aula de Yoga|https://movehealth.app/aulas/647483366.mp4"
+      ],
+      [
+        "Para fortalecer o Abdômen!|https://videos-move.s3.amazonaws.com/Aula+2+-+Rafael+Ferraz+-+Abdominal+e+Flexao.mp4"
+      ],
+      [
+        "Dia da Recuperação: Meditação|https://movehealth.app/aulas/580404893.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "PARA TODOS",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/para-todos.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/paratodos.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/paratodos.png",
+    "PLAYLIST": "CORE EM 10 MINUTOS|https://videos-move.s3.amazonaws.com/video_chamada_playlist/PARATODOS_Core10Min.mp4",
+    "THUMBS PLAYLIST": "capa core|https://videos-move.s3.amazonaws.com/thumb_playlist/core_em_20_minutos.png",
+    "RESUMO DA PLAYLIST": "O core é a base do nosso corpo e precisa ser fortalecido constantemente para te ajudar em qualquer atividade. Use esta série quando e onde quiser, independentemente do treinamento que você fizer no dia.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Core 1|https://movehealth.app/aulas/577594386.mp4"
+      ],
+      [
+        "Core 2|https://movehealth.app/aulas/579455318.mp4"
+      ],
+      [
+        "Core 3|https://movehealth.app/aulas/591606798.mp4"
+      ],
+      [
+        "Core 4|https://movehealth.app/aulas/611885114.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "PARA TODOS",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/para-todos.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/paratodos.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/paratodos.png",
+    "PLAYLIST": "SEMANA DO HIIT COM YOGA|https://videos-move.s3.amazonaws.com/video_chamada_playlist/PARATODOS_HitParaIniciantes.mp4",
+    "THUMBS PLAYLIST": "capa semana do hit|https://videos-move.s3.amazonaws.com/thumb_playlist/semana_do_hiit_com_yoga.png",
+    "RESUMO DA PLAYLIST": "Imagine uma semana com treinamento HIIT intercalados com práticas de yoga! Isso que você poderá fazer nesta sequência. Alta intensidade aeróbica com treino intervalado e em dias alternados, yoga para trazer melhora na respiração e equilíbrio postural. Tudo ao ar livre!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Hiit 1|https://movehealth.media-storage.us-west.qencode.com/684299992/video.m3u8"
+      ],
+      [
+        "Yoga 1|https://movehealth.media-storage.us-west.qencode.com/578020931/video.m3u8"
+      ],
+      [
+        "Hiit 2|https://movehealth.media-storage.us-west.qencode.com/685511183/video.m3u8"
+      ],
+      [
+        "Yoga 2|https://movehealth.media-storage.us-west.qencode.com/579506726/video.m3u8"
+      ],
+      [
+        "Hiit 3|https://movehealth.media-storage.us-west.qencode.com/687260170/video.m3u8"
+      ],
+      [
+        "Yoga 3|https://movehealth.media-storage.us-west.qencode.com/579830538/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "PARA TODOS",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/para-todos.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/paratodos.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/paratodos.png",
+    "PLAYLIST": "HIIT PARA INICIANTES|https://videos-move.s3.amazonaws.com/video_chamada_playlist/PARATODOS_HitParaIniciantes.mp4",
+    "THUMBS PLAYLIST": "capa hit iniciantes|https://videos-move.s3.amazonaws.com/thumb_playlist/hiit_para_iniciante.png",
+    "RESUMO DA PLAYLIST": "O treinamento intervalado de alta intensidade e curta duração, possui uma comprovação científica de eficácia e traz benefícios incríveis para seu desempenho. Vamos começar a praticar esse tipo de treinamento que conquistou o mundo? DICA: Faça os treinos em dias alternados, escolhendo uma modalidade mais leve para complementar.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Hiit iniciantes 1|https://movehealth.media-storage.us-west.qencode.com/639694574/video.m3u8"
+      ],
+      [
+        "Hiit iniciantes 2|https://movehealth.media-storage.us-west.qencode.com/641295309/video.m3u8"
+      ],
+      [
+        "Hiit iniciantes 3|https://movehealth.media-storage.us-west.qencode.com/647313564/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "PARA TODOS",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/para-todos.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/paratodos.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/paratodos.png",
+    "PLAYLIST": "TREINAMENTO DE FORÇA|https://videos-move.s3.amazonaws.com/video_chamada_playlist/PARATODOS_TreinamentoDeForca.mp4",
+    "THUMBS PLAYLIST": "capa força|https://videos-move.s3.amazonaws.com/thumb_playlist/treinamento_de_forca.png",
+    "RESUMO DA PLAYLIST": "Trabalhar a força independe de qualquer outra atividade ou esporte. Por isso preparamos esta sequência de treinos que irá trabalhar a força com o peso do seu próprio corpo. DICA: Se precisar de acessórios ou pesos, preste atenção nas dicas de adaptação que nosso professor irá passar.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Treinamento de Força 1|https://movehealth.media-storage.us-west.qencode.com/588555991/video.m3u8"
+      ],
+      [
+        "Treinamento de Força 2|https://movehealth.media-storage.us-west.qencode.com/588861031/video.m3u8"
+      ],
+      [
+        "Treinamento de Força 3|https://movehealth.media-storage.us-west.qencode.com/588972691/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "PARA TODOS",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/para-todos.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/paratodos.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/paratodos.png",
+    "PLAYLIST": "TREINE EM CASA|https://videos-move.s3.amazonaws.com/video_chamada_playlist/PARATODOS_TreinoEmCasa.mp4",
+    "THUMBS PLAYLIST": "capa treine em casa|https://videos-move.s3.amazonaws.com/thumb_playlist/treine_em_casa.png",
+    "RESUMO DA PLAYLIST": "Treine todos os dias da semana sem precisar de equipamentos ou ir até a academia. Criamos uma sequência de treinos para você fazer na sua casa e utilizando objetos simples, do dia a dia.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Fortalecimento em casa 1|https://movehealth.media-storage.us-west.qencode.com/580912292/video.m3u8"
+      ],
+      [
+        "Fortalecimento em casa 2|https://movehealth.media-storage.us-west.qencode.com/581188895/video.m3u8"
+      ],
+      [
+        "Fortalecimento em casa 3|https://movehealth.media-storage.us-west.qencode.com/582186919/video.m3u8"
+      ],
+      [
+        "Fortalecimento em casa 4|https://movehealth.media-storage.us-west.qencode.com/582263113/video.m3u8"
+      ],
+      [
+        "Fortalecimento em casa 5|https://movehealth.media-storage.us-west.qencode.com/582652804/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "PARA TODOS",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/para-todos.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/paratodos.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/paratodos.png",
+    "PLAYLIST": "APRENDENDO DANÇAS FAMOSAS|https://videos-move.s3.amazonaws.com/video_chamada_playlist/PARATODOS_AprendendoADancar.mp4",
+    "THUMBS PLAYLIST": "capa danças famosas|https://videos-move.s3.amazonaws.com/thumb_playlist/aprendendo_dancas_famosas.png",
+    "RESUMO DA PLAYLIST": "O professor Andre Oliveira nos ensina os principais passos de cada um dos estilos que mais fazem sucesso. Depois dessa sequência, você estará preparado para fazer bonito em qualquer evento!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Aprendendo Pagodão Baiano com André|https://videos-move.s3.amazonaws.com/Aula+1+-+Andre%CC%81+Oliveira+Pagode+Baiano.mp4"
+      ],
+      [
+        "Aprendendo Funk com André|https://videos-move.s3.amazonaws.com/Aula+2+-+Andre%CC%81+Oliveira+-FUNK.mp4"
+      ],
+      [
+        "Aprendendo Piseiro com André|https://videos-move.s3.amazonaws.com/Aula+3+-+Andre%CC%81+Oliveira+-+PISEIRO.mp4"
+      ],
+      [
+        "Aprendendo Brega Funk com André|https://videos-move.s3.amazonaws.com/Aula+4+-+Andre%CC%81+Oliveira+-+Brega+Funk.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "PERFORMANCE",
+    "CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/Performance.png",    
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/performance.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/performance.png",
+    "PLAYLIST": "COMECE A TREINAR|https://videos-move.s3.amazonaws.com/video_chamada_playlist/AVANCADO_ComeceATreinar.mp4",
+    "THUMBS PLAYLIST": "capa comece a treinar|https://videos-move.s3.amazonaws.com/thumb_playlist/comece_a_treinar_performance.png",
+    "RESUMO DA PLAYLIST": "Experimente este programa de 7 dias para escolher suas aulas preferidas. Este programa foi desenvolvido com treinamentos destinados à praticantes de atividades com o desempenho médio ou avançado.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Hipertrofia com Fe Cunha: Peitoral|https://videos-move.s3.amazonaws.com/Aula+1+-+Fernando+Cunha+-+Peito.mp4"
+      ],
+      [
+        "Hiit intervalado de alta intensidade 1|https://movehealth.app/aulas/580858764.mp4"
+      ],
+      [
+        "Core avançado|https://movehealth.app/aulas/571277057.mp4"
+      ],
+      [
+        "Hipertrofia com Fe Cunha: Dorsais|https://videos-move.s3.amazonaws.com/Aula+2+-+Fernando+Cunha+-+Costa.mp4"
+      ],
+      [
+        "Hiit intervalado de alta intensidade 2|https://movehealth.app/aulas/585355833.mp4"
+      ],
+      [
+        "Core avançado 2|https://movehealth.app/aulas/577743460.mp4"
+      ],
+      [
+        "Recupere seu músculo se alongando!|https://movehealth.app/aulas/593444636.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "PERFORMANCE",
+    "CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/Performance.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/performance.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/performance.png",
+    "PLAYLIST": "CORE 30 MINUTOS|https://videos-move.s3.amazonaws.com/video_chamada_playlist/PERFORMANCE_Core30Min.mp4",
+    "THUMBS PLAYLIST": "capa core|https://videos-move.s3.amazonaws.com/thumb_playlist/core_em_30_minutos.png",
+    "RESUMO DA PLAYLIST": "Treinamentos de 30 minutos para deixar seu core preparado para exercícios de alta performance!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Core 30 minutos: Aula 1|https://movehealth.app/aulas/592315558.mp4"
+      ],
+      [
+        "Core 30 minutos: Aula 2|https://movehealth.app/aulas/571277057.mp4"
+      ],
+      [
+        "Core 30 minutos: Aula 3|https://movehealth.app/aulas/593457800.mp4"
+      ],
+      [
+        "Core 30 minutos: Aula 4|https://movehealth.app/aulas/575073774.mp4"
+      ],
+      [
+        "Core 30 minutos: Aula 5|https://movehealth.app/aulas/609851536.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "PERFORMANCE",
+    "CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/Performance.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/performance.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/performance.png",
+    "PLAYLIST": "YOGA EM 30 MINUTOS|https://videos-move.s3.amazonaws.com/video_chamada_playlist/PERFORMANCE_Yoga30Min.mp4",
+    "THUMBS PLAYLIST": "capa yoga|https://videos-move.s3.amazonaws.com/thumb_playlist/yoga_em_30_minutos.png",
+    "RESUMO DA PLAYLIST": "Para você que já tem o yoga em sua rotina, esta série de práticas com 30 minutos irá possibilitar sua evolução!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Yoga 30 minutos: Aula 1|https://movehealth.app/aulas/580007329.mp4"
+      ],
+      [
+        "Yoga 30 minutos: Aula 2|https://movehealth.app/aulas/580903052.mp4"
+      ],
+      [
+        "Yoga 30 minutos: Aula 3|https://movehealth.app/aulas/582206466.mp4"
+      ],
+      [
+        "Yoga 30 minutos: Aula 4|https://movehealth.app/aulas/582543289.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "PERFORMANCE",
+    "CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/Performance.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/performance.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/performance.png",
+    "PLAYLIST": "HIIT FUNCIONAL EM 30 MINUTOS|https://videos-move.s3.amazonaws.com/video_chamada_playlist/PERFORMANCE_Hit30Min.mp4",
+    "THUMBS PLAYLIST": "cap hit funcional|https://videos-move.s3.amazonaws.com/thumb_playlist/hiit_funcional_em_30_minutos.png",
+    "RESUMO DA PLAYLIST": "Treinamentos de 30 minutos para queimar caloria, que da para ser feito em qualquer lugar!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Hiit Funcional 1|https://movehealth.app/aulas/580858764.mp4"
+      ],
+      [
+        "Hiit Funcional 2|https://movehealth.app/aulas/585832469.mp4"
+      ],
+      [
+        "Hiit Funcional 3|https://movehealth.app/aulas/585953636.mp4"
+      ],
+      [
+        "Hiit Funcional 4|https://movehealth.app/aulas/578038438.mp4"
+      ],
+      [
+        "Hiit Funcional 5|https://movehealth.app/aulas/647753713.mp4"
+      ],
+      [
+        "Hiit Funcional 6|https://movehealth.app/aulas/579443986.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "EXTRAS",
+    "CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/extra.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/extras.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/extras.png",
+    "PLAYLIST": "EVITANDO AS LERS NO TRABALHO|https://videos-move.s3.amazonaws.com/video_chamada_playlist/EXTRAS_EvitandoLERS.mp4",
+    "THUMBS PLAYLIST": "capa lers|https://videos-move.s3.amazonaws.com/thumb_playlist/evitando_lers.png",
+    "RESUMO DA PLAYLIST": "LER: Lesão por Esforços Repetitivos - nesta sequência de aulas, ensinamos técnicas que evitam as famosas LERS com exercícios e atividades simples para serem feitas no trabalho.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Mãos, punhos e cervical|https://movehealth.app/aulas/620113313.mp4",
+        "Mãos e dedos|https://movehealth.media-storage.us-west.qencode.com/617116086/video.m3u8",
+        "Automassagem com bolinha|https://movehealth.media-storage.us-west.qencode.com/622494123/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "EXTRAS",
+    "CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/extra.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/extras.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/extras.png",
+    "PLAYLIST": "TREINO EM CASA|https://videos-move.s3.amazonaws.com/video_chamada_playlist/EXTRAS_TreinoEmCasa.mp4",
+    "THUMBS PLAYLIST": "capa treine em casa|https://videos-move.s3.amazonaws.com/thumb_playlist/treine_em_casa.png",
+    "RESUMO DA PLAYLIST": "A Pandemia nos mostrou que é possível treinar em casa, mesmo sem equipamentos, adaptando com objetos comuns de casa. Nesta série de vídeos, você pode treinar o corpo todo e ter uma vida saudável dentro de casa.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Flexões e Abdominais com Rafael|https://videos-move.s3.amazonaws.com/Aula+2+-+Rafael+Ferraz+-+Abdominal+e+Flexao.mp4",
+        "Yoga em casa 1|https://movehealth.app/aulas/647849605.mp4",
+        "Pilates em casa|https://movehealth.media-storage.us-west.qencode.com/637067359/video.m3u8",
+        "Polichinelo com Rafael|https://videos-move.s3.amazonaws.com/Aula+1+-+Rafael+Ferraz.+-+Polichinelo.mp4",
+        "Yoga em casa 2|https://movehealth.media-storage.us-west.qencode.com/647853856/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "EXTRAS",
+    "CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/extra.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/extras.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/extras.png",
+    "PLAYLIST": "DANÇA FIT|https://videos-move.s3.amazonaws.com/video_chamada_playlist/EXTRAS_DancaFIT.mp4",
+    "THUMBS PLAYLIST": "capa dança fit|https://videos-move.s3.amazonaws.com/thumb_playlist/danca_fit.png",
+    "RESUMO DA PLAYLIST": "A dança é uma modalidade democrática e lúdica que movimenta todo o corpo e promove saúde. Imagine unir exercícios funcionais com a música? Aproveite esta série para curtir enquanto treina!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Dança Fit 1|https://movehealth.media-storage.us-west.qencode.com/639243193/video.m3u8",
+        "Dança Fit 2|https://movehealth.media-storage.us-west.qencode.com/641198794/video.m3u8",
+        "Dança Fit 3|https://movehealth.media-storage.us-west.qencode.com/641199212/video.m3u8",
+        "Dança Fit 4|https://movehealth.media-storage.us-west.qencode.com/641205436/video.m3u8",
+        "Dança Fit 5|https://movehealth.media-storage.us-west.qencode.com/641210609/video.m3u8",
+        "Dança Fit 6|https://movehealth.media-storage.us-west.qencode.com/641214426/video.m3u8",
+        "Dança Fit 7|https://movehealth.media-storage.us-west.qencode.com/649162141/video.m3u8",
+        "Dança Fit 9|https://movehealth.media-storage.us-west.qencode.com/651254509/video.m3u8",
+        "Dança Fit 10|https://movehealth.media-storage.us-west.qencode.com/651277030/video.m3u8",
+        "Dança Fit 11|https://movehealth.media-storage.us-west.qencode.com/651698318/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "EXTRAS",
+    "CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/extra.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/extras.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/extras.png",
+    "PLAYLIST": "CORE EM QUALQUER LUGAR|https://videos-move.s3.amazonaws.com/video_chamada_playlist/EXTRAS_CoreQualquerLugar.mp4",
+    "THUMBS PLAYLIST": "capa core qq lugar|https://videos-move.s3.amazonaws.com/thumb_playlist/core_em_qualquer_lugar.png",
+    "RESUMO DA PLAYLIST": "O core é a base do nosso corpo e precisa ser fortalecido constantemente. Preparamos uma série que você pode fazer em qualquer lugar, até mesmo durante uma viagem!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Core em qualquer lugar 1|https://movehealth.media-storage.us-west.qencode.com/675009066/video.m3u8",
+        "Core em qualquer lugar 2|https://movehealth.media-storage.us-west.qencode.com/675621339/video.m3u8",
+        "Core em qualquer lugar 3|https://movehealth.media-storage.us-west.qencode.com/684333405/video.m3u8",
+        "Core em qualquer lugar 4|https://movehealth.media-storage.us-west.qencode.com/684729489/video.m3u8",
+        "Core em qualquer lugar 5|https://movehealth.media-storage.us-west.qencode.com/685500871/video.m3u8",
+        "Core em qualquer lugar 6|https://movehealth.media-storage.us-west.qencode.com/686023216/video.m3u8",
+        "Core em qualquer lugar 7|https://movehealth.media-storage.us-west.qencode.com/715581234/video.m3u8",
+        "Core em qualquer lugar 8|https://movehealth.media-storage.us-west.qencode.com/715632656/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "EXTRAS",
+    "CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/extra.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/extras.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/extras.png",
+    "PLAYLIST": "HIIT NA VIAGEM|https://videos-move.s3.amazonaws.com/video_chamada_playlist/EXTRAS_HitNaViagem.mp4",
+    "THUMBS PLAYLIST": "capa hit viagem|https://videos-move.s3.amazonaws.com/thumb_playlist/hiit_na_viagem.png",
+    "RESUMO DA PLAYLIST": "Esta sequência de treinamentos são perfeitas para serem realizadas num ambiente externo. Ideal para treinar durante uma viagem, já que você só vai precisar do seu próprio corpo! Bons treinos e boa viagem!!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Hiit externo 1|https://movehealth.media-storage.us-west.qencode.com/684299992/video.m3u8",
+        "Hiit externo 2|https://movehealth.media-storage.us-west.qencode.com/685511183/video.m3u8",
+        "Hiit externo 3|https://movehealth.media-storage.us-west.qencode.com/687260170/video.m3u8",
+        "Hiit externo 4|https://movehealth.media-storage.us-west.qencode.com/715334346/video.m3u8",
+        "Hiit externo 5|https://movehealth.media-storage.us-west.qencode.com/718009935/video.m3u8",
+        "Hiit externo 6|https://movehealth.media-storage.us-west.qencode.com/718339326/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "50+",    
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/icones-50%2B.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/50mais.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/50%2B.png",
+    "PLAYLIST": "COMECE A TREINAR|https://videos-move.s3.amazonaws.com/video_chamada_playlist/50%2B_ComeceATreinar.mp4",
+    "THUMBS PLAYLIST": "capa comece a treinar|https://videos-move.s3.amazonaws.com/thumb_playlist/comece_a_treinar_50.png",
+    "RESUMO DA PLAYLIST": "Neste programa de 7 dias, você poderá escolher suas atividades preferidas para encontrar atividades que trarão a longevidade. Após os 50 anos de idade, nosso corpo precisa ser forte, ter um bom condicionamento cardiovascular e mobilidade.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Treinamento na cadeira com Orlando|https://videos-move.s3.amazonaws.com/Aula+3+-+Orlando+Garrido+-+Caminhada+Sentado.mp4"
+      ],
+      [
+        "Alongamento 1|https://movehealth.media-storage.us-west.qencode.com/592151289/video.m3u8"
+      ],
+      [
+        "Treinamento de equilíbrio com Orlando|https://videos-move.s3.amazonaws.com/Aula+1+-+Orlando+Garrido+-+Equilibrio.mp4"
+      ],
+      [
+        "Core para Iniciantes|https://movehealth.app/aulas/651179943.mp4"
+      ],
+      [
+        "Corrigindo a postura com Orlando|https://videos-move.s3.amazonaws.com/Aula+5+-+Orlando+Garrido+-+Corrigindo+a+Postura.mp4"
+      ],
+      [
+        "Alongamento 2|https://movehealth.media-storage.us-west.qencode.com/592276069/video.m3u8"
+      ],
+      [
+        "Meditação para finalizar o dia!|https://movehealth.media-storage.us-west.qencode.com/580911328/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "50+",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/icones-50%2B.png",    
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/50mais.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/50%2B.png",
+    "PLAYLIST": "PILATES EM CASA|https://videos-move.s3.amazonaws.com/video_chamada_playlist/50%2B_Pilates.mp4",
+    "THUMBS PLAYLIST": "capa pilates|https://videos-move.s3.amazonaws.com/thumb_playlist/pilates_em_casa.png",
+    "RESUMO DA PLAYLIST": "O Pilates é um método de exercícios físicos que trabalha a conexão entre o corpo e a mente. Ideal para quem busca longevidade e movimentos funcionais. Preparamos um treinamento de uma semana para deixar você forte e equilibrado.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Pilates 1|https://movehealth.media-storage.us-west.qencode.com/637128984/video.m3u8"
+      ],
+      [
+        "Pilates 2|https://movehealth.media-storage.us-west.qencode.com/637172421/video.m3u8"
+      ],
+      [
+        "Pilates 3|https://movehealth.media-storage.us-west.qencode.com/637176311/video.m3u8"
+      ],
+      [
+        "Pilates 4|https://movehealth.media-storage.us-west.qencode.com/637496558/video.m3u8"
+      ],
+      [
+        "Pilates 5|https://movehealth.media-storage.us-west.qencode.com/641280300/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "50+",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/icones-50%2B.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/50mais.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/50%2B.png",
+    "PLAYLIST": "MOBILIDADE E FORÇA|https://videos-move.s3.amazonaws.com/video_chamada_playlist/50%2B_Mobilidade%26Fortalecimento.mp4",
+    "THUMBS PLAYLIST": "capa mobilidade|https://videos-move.s3.amazonaws.com/thumb_playlist/funcional_para_sua_rotina.png",
+    "RESUMO DA PLAYLIST": "Preparamos uma sequência de exercícios para trazer fortalecimento e melhorar sua flexibilidade",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Fortalecimento de membros inferiores|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EYTrKoSYHtFMvQFaP4iF7zIBjeqUhvsnnHQ3gzyjuaajYA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=EHjSc9"
+      ],
+      [
+        "Fortalecimento de membros superiores|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/ETAbkKwCzy5KjFi8kTXbtzIBWMtb6ADttTF63AYEDSllHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=ggwLZr"
+      ],
+      [
+        "Alongamento e relaxamento no chão|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EVXzabviatZLsNoRYVl-WKMBFUrTkkKV3i5qJmVHWcA2ug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=b0fhs7"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "50+",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/icones-50%2B.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/50mais.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/50%2B.png",
+    "PLAYLIST": "FUNCIONAL PARA SUA ROTINA|https://videos-move.s3.amazonaws.com/video_chamada_playlist/50%2B_TreinamentoFuncional.mp4",
+    "THUMBS PLAYLIST": "capa funcional|https://videos-move.s3.amazonaws.com/thumb_playlist/mobilidade_e_forca.png",
+    "RESUMO DA PLAYLIST": "As bases do treinamento funcional, direcionadas para quem busca ter uma melhor qualidade de vida. Essa sequência de treinamentos tem baixa dificuldade mas muita eficácia! #ToNoMove",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Funcional para iniciantes 1|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EfvRyn_Vn7hErSmyQcIEtUkBVF1gZmF0QAeqenIV2vdiSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=fS0yHj"
+      ],
+      [
+        "Funcional para iniciantes 2|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/Eem8XYILuiROnVOL5svls6ABixd4Vok-PX5wAwaIh0hGLA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=FE6bHX"
+      ],
+      [
+        "Funcional para iniciantes 3|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EcQhxh5Tg9NOnAjZnxi0RikBfC2tz-zWMyx8T0P5q7cm1g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=HQYDCu"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "50+",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/icones-50%2B.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/50mais.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/50%2B.png",
+    "PLAYLIST": "PILARES DA LONGEVIDADE|https://videos-move.s3.amazonaws.com/video_chamada_playlist/50%2B_PilaresDaLongevidade.mp4",
+    "THUMBS PLAYLIST": "capa pilares|https://videos-move.s3.amazonaws.com/thumb_playlist/pilates_da_longevidade.png",
+    "RESUMO DA PLAYLIST": "Preparamos uma sequência de exercícios que são fundamentais para termos uma ótima qualidade de vida. São exercícios que podem,s ser repetidos semanalmente. Aproveite e tenha uma vida longa, saudável!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Treinamento de equilíbrio com Orlando|https://videos-move.s3.amazonaws.com/Aula+1+-+Orlando+Garrido+-+Equilibrio.mp4"
+      ],
+      [
+        "Fortalecimento de glúteos (evitando a queda) com Orlando|https://videos-move.s3.amazonaws.com/Aula+2+-+Orlando+Garrido+-+Fortalecimento+de+Gluteos.mp4"
+      ],
+      [
+        "Treinamento na cadeira com Orlando|https://videos-move.s3.amazonaws.com/Aula+3+-+Orlando+Garrido+-+Caminhada+Sentado.mp4"
+      ],
+      [
+        "Orlando ensina prevenir lesões com objetos de casa!|https://videos-move.s3.amazonaws.com/Aula+4+-+Orlando+garrido+-+Prevenindo+Leso%CC%83es.mp4"
+      ],
+      [
+        "Corrigindo a postura com Orlando|https://videos-move.s3.amazonaws.com/Aula+5+-+Orlando+Garrido+-+Corrigindo+a+Postura.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "RECUPERE-SE",
+		"CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/recupere-se.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/recuperacao.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/recuperese.png",
+    "PLAYLIST": "COMECE A TREINAR|https://videos-move.s3.amazonaws.com/video_chamada_playlist/RECUPERE-SE_ComeceATreinar.mp4",
+    "THUMBS PLAYLIST": "capa comece a treinar|https://videos-move.s3.amazonaws.com/thumb_playlist/comece_a_treinar_recuperacao.png",
+    "RESUMO DA PLAYLIST": "Tão importante quanto o treinamento, é o descanso/recuperação. Escolha suas atividades preferidas neste programa de 7 dias!",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Comece com o alongamento!|https://movehealth.media-storage.us-west.qencode.com/583533741/video.m3u8"
+      ],
+      [
+        "Pilates é sempre bom: Aula 1|https://movehealth.media-storage.us-west.qencode.com/635562928/video.m3u8"
+      ],
+      [
+        "Corpo e Alma: Meditação 1|https://movehealth.media-storage.us-west.qencode.com/580478325/video.m3u8"
+      ],
+      [
+        "Yoga 1|https://movehealth.media-storage.us-west.qencode.com/647771096/video.m3u8"
+      ],
+      [
+        "Alongamento 2|https://movehealth.media-storage.us-west.qencode.com/585373976/video.m3u8"
+      ],
+      [
+        "Pilates é sempre bom: Aula 2|https://movehealth.media-storage.us-west.qencode.com/636562721/video.m3u8"
+      ],
+      [
+        "Corpo e Alma: Meditação 2|https://movehealth.media-storage.us-west.qencode.com/580407288/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "RECUPERE-SE",
+		"CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/recupere-se.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/recuperacao.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/recuperese.png",
+    "PLAYLIST": "PILATES|https://videos-move.s3.amazonaws.com/video_chamada_playlist/RECUPERE-SE_Pilates.mp4",
+    "THUMBS PLAYLIST": "capa pilates|https://videos-move.s3.amazonaws.com/thumb_playlist/pilates.png",
+    "RESUMO DA PLAYLIST": "Treinamento ideal para você que busca fortalecer seu corpo de forma integral, conciliando com outras atividades físicas. A sugestão é que você intercale esses treinos com suas outras atividades durante a semana.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Pilates 1|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EdIiHbm2f9RLpWYi0iYhBl4B19slw5dyluyayDzZB9GI3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=drOd8Z"
+      ],
+      [
+        "Pilates 2|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EazmW7hLW0tMuHnS2-6tUaABTx9Cst2_uuDIsOx-fJ3USA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=kHuRdG"
+      ],
+      [
+        "Pilates 3|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/ETbn4hig3elJvMIRka5QDZQBZODRvLUy-SfBMDlIV3UOmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=FSDHje"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "RECUPERE-SE",
+		"CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/recupere-se.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/recuperacao.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/recuperese.png",
+    "PLAYLIST": "MEDITAÇÃO|https://videos-move.s3.amazonaws.com/video_chamada_playlist/RECUPERE-SE_Meditacao.mp4",
+    "THUMBS PLAYLIST": "capa meditação|https://videos-move.s3.amazonaws.com/thumb_playlist/meditacao.png",
+    "RESUMO DA PLAYLIST": "Cuidar da mente é fundamental para ter uma boa saúde. Isso porquê nossa mente é a aliada principal de qualquer tipo de treinamento. Vamos então cuidar da mente para poder cuidar do corpo? DICA: Use e abuse desta sequencia de meditações durante sua semana.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Meditação 1|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EdbiNW7Vua1Lkyul4NgBiEkBSouOUfSQSmA5cxA7IlQ9WA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=VTsTc6"
+      ],
+      [
+        "Meditação 2|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EVkWxrifXPtOi1Q6ovmvoAMBgsfotLBI5OsL07GF-nPk5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=WIEgUe"
+      ],
+      [
+        "Meditação 3|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EVR8FmTDC9xGvA4fZoTh86sBNSUM8BTrR54C9bPVw4M7gQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=h3ayTP"
+      ],
+      [
+        "Meditação 4|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EfvRyn_Vn7hErSmyQcIEtUkBVF1gZmF0QAeqenIV2vdiSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=XnWqPu"
+      ],
+      [
+        "Meditação 5|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EUKyuADklMFOj9a0Y1pifucBLyjEZeiqXgvHlnFX_tmE1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=waMXyT"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "RECUPERE-SE",
+		"CATEGORIA_ICON_URL":"https://videos-move.s3.amazonaws.com/icons/recupere-se.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/recuperacao.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/recuperese.png",
+    "PLAYLIST": "ALONGAMENTO PARA O CORPO|https://videos-move.s3.amazonaws.com/video_chamada_playlist/RECUPERE-SE_AlongamentoParaCorpo.mp4",
+    "THUMBS PLAYLIST": "capa alongamento|https://videos-move.s3.amazonaws.com/thumb_playlist/alongamento_para_o_corpo.png",
+    "RESUMO DA PLAYLIST": "Criamos uma sequencia de alongamentos para melhorar sua mobilidade articular. Nesta sequência, dividida por membros, superiores, inferiores e tronco, você perceberá uma evolução significativa nos próximos treinos.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Alongamento de membros inferiores|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/Ecnuov0rciNCk9op7kQvvlQBRY1GGrXBmG5n92Z-DIziFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=zgsOK9"
+      ],
+      [
+        "Alongamento de membros superiores|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EXohpTv0VZJCnOne6PKdxH4BSR5l6cnRd6XGPyOygXn8kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=wqSeGn"
+      ],
+      [
+        "Alongamento do tronco|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EZ4LDLHkYUxDg9CtxMhmX74BleaSpu5WEJQLri3EGlTKSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=cqh8DE"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "CORRIDA",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/corrida.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/corrida.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/corrida.png",
+    "PLAYLIST": "COMECE A TREINAR|https://videos-move.s3.amazonaws.com/video_chamada_playlist/CORRIDA_ComeceAtreinar.mp4",
+    "THUMBS PLAYLIST": "capa comece a treinar|https://videos-move.s3.amazonaws.com/thumb_playlist/comece_a_treinar_corrida.png",
+    "RESUMO DA PLAYLIST": "Experimente este programa de 6 dias para aprimorar suas técnicas de corrida com nossa embaixadora Vivi Tezzelle.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Educativos de Corrida com Vivi|https://videos-move.s3.amazonaws.com/Aula+1+-+Vivian+Tezzelle+-+Educativos+de+Corrida.mp4"
+      ],
+      [
+        "Monitoramento para corrida com Vivi|https://videos-move.s3.amazonaws.com/AULA+6+-+Vivian+Tezzele+-+Monitoramento.mp4"
+      ],
+      [
+        "Aula de Gasto Calórico com Vivi|https://videos-move.s3.amazonaws.com/Aula+7+-+Vivian+Tezzelle+-+Gasto+Calorico.mp4"
+      ],
+      [
+        "Fortalecimento corporal com Vivi|https://videos-move.s3.amazonaws.com/AULA+8+-+FORTALECIMENTO+CORPORAL.mp4"
+      ],
+      [
+        "Fortalecendo o core com Vivi|https://videos-move.s3.amazonaws.com/AULA+9+-+Vivian+Tezzelle+-+Fortalecendo+o+Core.mp4"
+      ],
+      [
+        "Corrida na areia com Vivi|https://videos-move.s3.amazonaws.com/Aula+10+-+Vivian+Tezzelle+-+Corrida+na+Areia.mp4"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "CORRIDA",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/corrida.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/corrida.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/corrida.png",
+    "PLAYLIST": "CORE 20 MINUTOS|https://videos-move.s3.amazonaws.com/video_chamada_playlist/CORRIDA_Core20Min.mp4",
+    "THUMBS PLAYLIST": "capa core 20 min|https://videos-move.s3.amazonaws.com/thumb_playlist/core_em_20_minutos.png",
+    "RESUMO DA PLAYLIST": "O core é o protagonista para ajudar nos seus treinamentos de corrida e evitar lesões. Utilize esta série em dias alternados dentro do seu planejamento.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Fortalecimento de Core para Corrida 1|https://movehealth.media-storage.us-west.qencode.com/591624365/video.m3u8"
+      ],
+      [
+        "Fortalecimento de Core para Corrida 2|https://movehealth.media-storage.us-west.qencode.com/577743460/video.m3u8"
+      ],
+      [
+        "Fortalecimento de Core para Corrida 3|https://movehealth.media-storage.us-west.qencode.com/592409960/video.m3u8"
+      ],
+      [
+        "Fortalecimento de Core para Corrida 4|https://movehealth.media-storage.us-west.qencode.com/579500751/video.m3u8"
+      ],
+      [
+        "Fortalecimento de Core para Corrida 5|https://movehealth.media-storage.us-west.qencode.com/592892701/video.m3u8"
+      ],
+      [
+        "Fortalecimento de Core para Corrida 6|https://movehealth.media-storage.us-west.qencode.com/596000086/video.m3u8"
+      ]
+    ]
+  },
+  {
+    "CATEGORIA": "CORRIDA",
+    "CATEGORIA_ICON_URL": "https://videos-move.s3.amazonaws.com/icons/corrida.png",
+    "THUMBS_CATEG_LANDSCAPE": "https://videos-move.s3.amazonaws.com/thumb_paisagem/corrida.png",
+    "THUMBS_CATEG_PORTRAIT": "https://videos-move.s3.amazonaws.com/thumb_retrato/corrida.png",
+    "PLAYLIST": "FUNCIONAL PARA SUA CORRIDA|https://videos-move.s3.amazonaws.com/video_chamada_playlist/CORRIDA_TreinamentoFuncional.mp4",
+    "THUMBS PLAYLIST": "capa funcional corrida|https://videos-move.s3.amazonaws.com/thumb_playlist/funcional_para_sua_corrida.png",
+    "RESUMO DA PLAYLIST": "O treinamento funcional auxilia muito na técnica de corrida por deixar seu corpo mais fortalecido e ágil. Aproveite esta sequência para praticar nos dias de treinos mais leves de corrida.",
+    "FREQUENCIA": "DIÁRIA",
+    "VIDEOS": [
+      [
+        "Treinamento Funcional para corrida 1|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EduJ1g2ftChBjvlcsytrXwkBGrsICjN3-qXnt6GH_hICGA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=eWrvA1"
+      ],
+      [
+        "Treinamento Funcional para corrida 2|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/ERvvSIB63BNOqrzUudB_LoEBZDd_HD6JrxZ9b2wrBL3phg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=05ibiJ"
+      ],
+      [
+        "Treinamento Funcional para corrida 3|https://docs.google.com/:v:/g/personal/gabriel_lima_tecsagroup_com_br/EWf_UgZZVQJMvwe-x1P_-5QB9KJleQ5gZ4H04mVNOjEOaw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=r50DYD"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+service: otp-mailer-service
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-jetpack
+
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+# overwrite defaults here
+  stage: prod
+  region: sa-east-1
+  environment:
+    PORT: ${env:PORT}
+    CLUB_NUTRI_SENDER: ${env:CLUB_NUTRI_SENDER}
+    MOVE_SENDER: ${env:MOVE_SENDER}
+    S3_BUCKET_HTML_TEMPLATE: ${env:S3_BUCKET_HTML_TEMPLATE}
+    CLUB_NUTRI_HTML_PATH: ${env:CLUB_NUTRI_HTML_PATH}
+    MOVE_HTML_PATH: ${env:MOVE_HTML_PATH}
+    MOVE_1ST_ALERT_HTML_PATH: ${env:MOVE_1ST_ALERT_HTML_PATH}
+    MOVE_2ND_ALERT_HTML_PATH: ${env:MOVE_2ND_ALERT_HTML_PATH}
+    MOVE_CANCEL_HTML_PATH: ${env:MOVE_CANCEL_HTML_PATH}
+    MOVE_FORGOT_PASSWORD_HTML_PATH: ${env:MOVE_FORGOT_PASSWORD_HTML_PATH}
+    DAYS_TO_PAY: ${env:DAYS_TO_PAY}
+
+functions:
+  github-actions:
+    handler: dist/serverless.handler
+    events:
+      - httpApi: '*'
